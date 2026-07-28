@@ -1,0 +1,91 @@
+<svg viewBox="0 0 1200 360" width="1200" height="360" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" stop-color="#0a0e1a"/>
+<stop offset="50%" stop-color="#0d1425"/>
+<stop offset="100%" stop-color="#141b2e"/>
+</linearGradient>
+<radialGradient id="glow1" cx="50%" cy="50%" r="50%">
+<stop offset="0%" stop-color="#4fd8e0" stop-opacity="0.5"/>
+<stop offset="100%" stop-color="#4fd8e0" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="glow2" cx="50%" cy="50%" r="50%">
+<stop offset="0%" stop-color="#c8952e" stop-opacity="0.4"/>
+<stop offset="100%" stop-color="#c8952e" stop-opacity="0"/>
+</radialGradient>
+<linearGradient id="bladeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" stop-color="#7fe8ef"/>
+<stop offset="45%" stop-color="#3aa9c9"/>
+<stop offset="100%" stop-color="#1a5a7a"/>
+</linearGradient>
+<linearGradient id="goldEdge" x1="0%" y1="0%" x2="100%" y2="0%">
+<stop offset="0%" stop-color="#8a6a2a"/>
+<stop offset="50%" stop-color="#e8c468"/>
+<stop offset="100%" stop-color="#8a6a2a"/>
+</linearGradient>
+<linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+<stop offset="0%" stop-color="#ffffff"/>
+<stop offset="100%" stop-color="#cfe8ee"/>
+</linearGradient>
+</defs>
+
+<rect x="0" y="0" width="1200" height="360" fill="url(#bgGrad)"/>
+
+<circle cx="950" cy="120" r="220" fill="url(#glow1)"/>
+<circle cx="1050" cy="260" r="180" fill="url(#glow2)"/>
+
+<g opacity="0.12" stroke="#4fd8e0" stroke-width="1">
+<polygon points="820,60 860,80 860,120 820,140 780,120 780,80"/>
+<polygon points="900,40 940,60 940,100 900,120 860,100 860,60"/>
+<polygon points="980,60 1020,80 1020,120 980,140 940,120 940,80"/>
+<polygon points="860,120 900,140 900,180 860,200 820,180 820,140"/>
+<polygon points="940,120 980,140 980,180 940,200 900,180 900,140"/>
+<polygon points="1020,120 1060,140 1060,180 1020,200 980,180 980,140"/>
+<polygon points="900,180 940,200 940,240 900,260 860,240 860,200"/>
+<polygon points="980,180 1020,200 1020,240 980,260 940,240 940,200"/>
+<polygon points="1060,180 1100,200 1100,240 1060,260 1020,240 1020,200"/>
+</g>
+
+<g transform="translate(940,190) rotate(35)">
+<polygon points="0,-160 14,-140 14,60 0,80 -14,60 -14,-140" fill="url(#bladeGrad)" opacity="0.9"/>
+<polygon points="0,-160 14,-140 6,-140 0,-160" fill="#ffffff" opacity="0.7"/>
+<rect x="-22" y="60" width="44" height="16" rx="3" fill="url(#goldEdge)"/>
+<rect x="-8" y="76" width="16" height="70" rx="4" fill="#3a2a14"/>
+<circle cx="0" cy="68" r="26" fill="none" stroke="url(#goldEdge)" stroke-width="3" opacity="0.85"/>
+<line x1="0" y1="-150" x2="0" y2="55" stroke="#ffffff" stroke-width="1.5" opacity="0.5"/>
+</g>
+
+<g opacity="0.55">
+<circle cx="1005" cy="120" r="3" fill="#7fe8ef"/>
+<circle cx="1040" cy="90" r="2" fill="#e8c468"/>
+<circle cx="1070" cy="150" r="2.5" fill="#7fe8ef"/>
+<circle cx="1090" cy="100" r="2" fill="#e8c468"/>
+<circle cx="960" cy="200" r="2" fill="#7fe8ef"/>
+<circle cx="1030" cy="230" r="2.5" fill="#e8c468"/>
+<circle cx="1100" cy="200" r="2" fill="#7fe8ef"/>
+</g>
+
+<g stroke="#e8c468" stroke-width="1.5" opacity="0.4" fill="none">
+<circle cx="1000" cy="180" r="95"/>
+<circle cx="1000" cy="180" r="105"/>
+</g>
+
+<path d="M60,320 L60,60 L110,60" fill="none" stroke="#e8c468" stroke-width="2" opacity="0.5"/>
+<path d="M65,64 L65,120" fill="none" stroke="#4fd8e0" stroke-width="1" opacity="0.4"/>
+
+<text x="60" y="150" font-family="'Segoe UI', Arial, sans-serif" font-size="64" font-weight="700" fill="url(#textGrad)" textLength="1060" lengthAdjust="spacingAndGlyphs">
+<tspan x="60" dy="0">League Of Legends</tspan>
+</text>
+<text x="60" y="222" font-family="'Segoe UI', Arial, sans-serif" font-size="64" font-weight="700" fill="url(#textGrad)" textLength="460" lengthAdjust="spacingAndGlyphs">
+<tspan x="60" dy="0">Script Bot</tspan>
+</text>
+
+<text x="60" y="270" font-family="'Segoe UI', Arial, sans-serif" font-size="22" fill="#a9c4d0" textLength="900" lengthAdjust="spacingAndGlyphs">
+<tspan x="60" dy="0">Automates champion actions and combos for League of Legends,</tspan>
+</text>
+<text x="60" y="298" font-family="'Segoe UI', Arial, sans-serif" font-size="22" fill="#a9c4d0" textLength="480" lengthAdjust="spacingAndGlyphs">
+<tspan x="60" dy="0">built for gamers who script smarter.</tspan>
+</text>
+
+<rect x="60" y="230" width="46" height="3" fill="#e8c468" opacity="0.8"/>
+</svg>
